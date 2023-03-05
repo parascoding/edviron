@@ -33,24 +33,24 @@ const Middlebox = () => {
                     <Col md={3} className="m-2">
                       <Card>
                         <Card.Body>
-                          <Card.Title>Users</Card.Title>
-                          <Card.Text>1,000</Card.Text>
+                          <Card.Title>30,000</Card.Title>
+                          <Card.Text>Payment</Card.Text>
                         </Card.Body>
                       </Card>
                     </Col>
                     <Col md={3} className="m-2">
                       <Card>
                         <Card.Body>
-                          <Card.Title>Orders</Card.Title>
-                          <Card.Text>500</Card.Text>
+                          <Card.Title>250</Card.Title>
+                          <Card.Text>New Users</Card.Text>
                         </Card.Body>
                       </Card>
                     </Col>
                     <Col md={3} className="m-2">
                       <Card>
                         <Card.Body>
-                          <Card.Title>Sales</Card.Title>
-                          <Card.Text>$50,000</Card.Text>
+                          <Card.Title>$400,000</Card.Title>
+                          <Card.Text>Revenue Generated</Card.Text>
                         </Card.Body>
                       </Card>
                     </Col>
@@ -85,7 +85,7 @@ const Middlebox = () => {
                 </Row>
                 <Row>
                   <Col>
-                    <Table striped bordered hover>
+                    <Table>
                       <thead>
                         <tr>
                           <th>User</th>
@@ -97,25 +97,46 @@ const Middlebox = () => {
                       </thead>
                       <tbody>
                         <tr>
-                          <td>User 1</td>
-                          <td>Active</td>
-                          <td>4.5</td>
-                          <td>10</td>
-                          <td>$100</td>
+                          <td>Mulay</td>
+                          <td>Verified</td>
+                          <td>40%</td>
+                          <td>400</td>
+                          <td>$400,000</td>
                         </tr>
                         <tr>
-                          <td>User 2</td>
-                          <td>Inactive</td>
-                          <td>3.0</td>
-                          <td>5</td>
-                          <td>$50</td>
+                          <td>Tarun</td>
+                          <td>Pending</td>
+                          <td>57%</td>
+                          <td>200</td>
+                          <td>$400,000</td>
                         </tr>
                         <tr>
-                          <td>User 3</td>
+                          <td>Jasraj</td>
+                          <td>Verified</td>
+                          <td>89%</td>
+                          <td>40,000</td>
+                          <td>$1,400,000</td>
+                        </tr>
+                        <tr>
+                          <td>Lakshay</td>
                           <td>Active</td>
-                          <td>4.8</td>
-                          <td>15</td>
+                          <td>No Ratings Available</td>
+                          <td>0</td>
                           <td>$150</td>
+                        </tr>
+                        <tr>
+                          <td>Aditya</td>
+                          <td>Verified</td>
+                          <td>50%</td>
+                          <td>30</td>
+                          <td>$25,000</td>
+                        </tr>
+                        <tr>
+                          <td>Ojha</td>
+                          <td>Pending</td>
+                          <td>64%</td>
+                          <td>400</td>
+                          <td>$400,000</td>
                         </tr>
                       </tbody>
                     </Table>

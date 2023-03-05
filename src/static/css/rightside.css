@@ -22,11 +22,27 @@
 
 .view-more {
   margin-top: 1rem;
+  font-family: 'Manrope';
+  font-style: normal;
+  background: #B4CD93 !important;
+  color: #4c4c4c;
+  margin-left: 5rem;
 }
-
+.view-all{
+  margin-top: 1rem;
+  font-family: 'Manrope';
+  font-style: normal;
+  background: #B4CD93 !important;
+  color: #4c4c4c;
+  margin-left: 3.5rem;
+}
 .recent-transactions{
   margin-top: 8rem;
 }
 .highest-transactions{
   margin-top: 5rem;
+}
+.boxes{
+  font-family: 'Manrope';
+  font-style: normal;
 }

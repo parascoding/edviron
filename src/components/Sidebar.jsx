@@ -33,25 +33,27 @@ const Sidebar = () => {
                 alt="Logo"
               />
               <Nav defaultActiveKey="/" className="flex-column navlinks">
-                <Nav.Link href="/">
+                <Nav.Link href="/" className="mt-2">
                   <FontAwesomeIcon icon={faThLarge} /> Dashboard
                 </Nav.Link>
-                <Nav.Link href="/users">
+                <Nav.Link href="/users" className="mt-2">
                   <FontAwesomeIcon icon={faUser} />
                   Users
                 </Nav.Link>
-                <Nav.Link href="/settings">
+                <Nav.Link href="/settings" className="mt-2">
                   <FontAwesomeIcon icon={faImages} />
                   Projects
                 </Nav.Link>
-                <Nav.Link href="/">
+                <Nav.Link href="/" className="mt-2">
                   <FontAwesomeIcon icon={faNoteSticky} /> Sales
                 </Nav.Link>
-                <div className="navlink-other">
+              </Nav>
+              <Nav defaultActiveKey="/" className="flex-column navlink-other">
+                <div className="navlink-other mt-2">
                   <Nav.Link href="/">
                     <FontAwesomeIcon icon={faGear} /> Settings
                   </Nav.Link>
-                  <Nav.Link href="/">
+                  <Nav.Link href="/" className="mt-2">
                     <FontAwesomeIcon icon={faSignOut} /> Logout
                   </Nav.Link>
                 </div>

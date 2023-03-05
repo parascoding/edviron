@@ -73,8 +73,8 @@ const RightSide = () => {
             </tr>
           </tbody>
         </Table>
-        <Button variant="outline-secondary" className="view-more">
-          View More
+        <Button variant="outline-secondary" className="view-all" >
+          View All Transactions
         </Button>
       </div>
       <Clock />
