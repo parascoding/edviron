@@ -1,0 +1,53 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 25%;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.main-content {
+  padding: 20px;
+  margin-left: 25%;
+}
+.sidebar-logo {
+  width: 134px;
+  height: 48px;
+  left: 51px;
+  top: 60px;
+}
+.navlinks {
+  margin: 3.2rem;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #808080 !important;
+
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.navlink-other {
+  margin-top: 10rem;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+
+  color: #808080 !important;
+
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}

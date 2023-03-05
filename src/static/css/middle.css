@@ -1,0 +1,12 @@
+.boxes{
+    margin-top: 8rem;
+}
+.middle {
+
+    margin-left: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: start;
+  }
+  

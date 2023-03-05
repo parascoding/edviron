@@ -1,0 +1,32 @@
+.right-side {
+  float: right;
+  /* left:%; */
+  /* margin-right: 5pc; */
+  margin-left: 0rem;
+  margin-right: 5rem;
+  flex-direction: column;
+  /* align-items: center;
+  align-items: start; */
+}
+
+.notification-icon {
+  float: right;
+  margin-left: 1rem;
+}
+
+.table-header {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.view-more {
+  margin-top: 1rem;
+}
+
+.recent-transactions{
+  margin-top: 8rem;
+}
+.highest-transactions{
+  margin-top: 5rem;
+}
