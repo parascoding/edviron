@@ -13,7 +13,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/admin/dashboard" element={<AdminDashboard />}></Route>
+          <Route path="/" element={<AdminDashboard />}></Route>
         </Routes>
       </BrowserRouter>
     </>
